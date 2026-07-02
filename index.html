@@ -18,13 +18,7 @@
 
     <main class="app-main">
         <!-- アップロードセクション -->
-        <section id="upload-section" class="card active">
-            <h2>音声ファイルをアップロード</h2>
-            <div id="drop-zone" class="drop-zone">
-                <span class="material-symbols-outlined icon-large">upload_file</span>
-                <p>タップしてファイルを選択<br>またはドラッグ＆ドロップ</p>
-                <input type="file" id="audio-file" accept=".wav,.mp3,.aiff,.aac,.ogg,.flac" hidden>
-            </div>
+       <input type="file" id="audio-file" accept="audio/*,.wav,.mp3,.aiff,.aac,.ogg,.flac,.m4a" style="display: none;">
             <div id="file-info" class="file-info hidden">
                 <span class="material-symbols-outlined">audio_file</span>
                 <div class="file-details">
